@@ -22,5 +22,13 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "react-client": {
+      "tags": []
+    },
+    "react-client-e2e": {
+      "tags": [],
+      "implicitDependencies": ["react-client"]
+    }
+  }
 }
